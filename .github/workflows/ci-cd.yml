@@ -26,8 +26,8 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ghcr.io/marvinhalabi/karl
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: marvinhalabi
+          password: Yyn5KiJez6S2e2P
 
       - name: Build and publish Docker image
         uses: docker/build-push-action@v2
