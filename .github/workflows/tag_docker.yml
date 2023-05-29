@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - 'dev/*' # Matches any branch starting with 'dev/'
-      - main
     tags:
       - 'v*' # Matches any tag starting with 'v'
 
